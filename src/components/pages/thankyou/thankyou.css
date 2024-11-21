@@ -1,0 +1,60 @@
+.thankYouContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: #ffffff;
+    text-align: center;
+    font-family: "Arial", sans-serif;
+    padding: 20px;
+  }
+  
+  .thankYouTitle {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .thankYouMessage {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    line-height: 1.6;
+  }
+  
+  .thankYouIcon {
+    font-size: 5rem;
+    margin-bottom: 20px;
+    animation: bounce 1.5s infinite;
+  }
+  
+  .returnButton {
+    background-color: #ffffff;
+    color: #2575fc;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .returnButton:hover {
+    background-color: #2575fc;
+    color: #ffffff;
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  

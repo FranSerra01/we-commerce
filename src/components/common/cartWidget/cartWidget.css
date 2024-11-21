@@ -1,0 +1,25 @@
+/* src\components\common\carrito\carrito.css */
+
+.cartWidget {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.cartIcon {
+  color: #ddd;
+  font-size: 24px;
+}
+
+.itemCount {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background-color: #2a9d8f;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 2px 6px;
+  border-radius: 50%;
+}

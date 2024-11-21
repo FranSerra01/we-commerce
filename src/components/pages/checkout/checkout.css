@@ -1,0 +1,110 @@
+/* Contenedor principal del checkout */
+.checkoutContainer {
+    width: 90%;
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .checkoutContainer h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  /* Estilo para el formulario */
+  .checkoutForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .checkoutForm label {
+    text-align: left;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #444;
+  }
+  
+  .checkoutForm input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .checkoutForm input:focus {
+    border-color: #007bff;
+  }
+  
+  /* Botón de enviar */
+  .checkoutSubmitButton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .checkoutSubmitButton:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  .checkoutSubmitButton:active {
+    background-color: #003f8a;
+    transform: scale(1);
+  }
+  
+  /* Resumen del carrito */
+  .cartSummary {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  .cartSummary h3 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    color: #333;
+    text-align: center;
+  }
+  
+  .cartSummaryItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .cartSummaryItem:last-child {
+    border-bottom: none;
+  }
+  
+  .cartSummaryItem p {
+    margin: 0;
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .cartSummaryItem p:first-child {
+    font-weight: bold;
+    color: #333;
+  }
+  

@@ -1,0 +1,91 @@
+/* src\components\common\card\card.css */
+
+.card {
+  width: 250px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
+  margin: 0; /* Asegúrate de que no haya margen */
+}
+
+.cardImage {
+  height: 150px; /* Fija la altura para que todas las imágenes tengan el mismo tamaño */
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.cardInfo {
+  padding: 15px;
+  width: 100%;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.cardTitle {
+  font-size: 18px;
+  color: #333;
+  margin: 0;
+  font-weight: bold;
+}
+
+.cardModel,
+.cardColor {
+  font-size: 14px;
+  color: #666;
+  margin: 5px 0;
+}
+
+.cardPrice {
+  font-size: 16px;
+  color: #2a9d8f;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.cardButton {
+  background-color: #2a9d8f;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s;
+}
+
+.cardButton:hover {
+  background-color: #21867a;
+}
+
+.cardDescription {
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.addToCartButton {
+  background-color: #ff6f61;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.addToCartButton:hover {
+  background-color: #e65a4e;
+}
